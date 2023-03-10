@@ -2,7 +2,6 @@ import torch
 import torch.nn as nn
 from timm.models.layers import DropPath, to_2tuple, trunc_normal_
 from typing import Optional, Callable
-from timm.data.random_erasing import RandomErasing ### 引入随机擦除～
 import math
 
 class Mlp(nn.Module):
