@@ -26,13 +26,13 @@ python -m torch.distributed.launch --nproc_per_node=8 --nnodes=1 --node_rank=0 -
 
 2. Run:
 ```
-python eval_ijbc_baseline.py --model-prefix work_dirs/glint360k_vit_s/model.pt --result-dir work_dirs/glint360k_vit_s --network vit_s_dp005_mask_0 > ijbc_glint360k_vit_s.log 2>&1 &
+python eval_ijbc.py --model-prefix work_dirs/glint360k_vit_s/model.pt --result-dir work_dirs/glint360k_vit_s --network vit_s_dp005_mask_0 > ijbc_glint360k_vit_s.log 2>&1 &
 ```
 
 
 ## TransFace Pretrained Models 
 
-You can download the test models reported in our paper as follows:
+You can download the TransFace models reported in our paper as follows:
 
 1 Training Data: MS1MV2
 * MS1MV2 TransFace-S: [Google Drive](https://drive.google.com/file/d/1UZWCg7jNESDv8EWs7mxQSswCMGbAZNF4/view?usp=share_link)
@@ -44,6 +44,10 @@ You can download the test models reported in our paper as follows:
 * Glint360K TransFace-B: [Google Drive](https://drive.google.com/file/d/13IezvOo5GvtGVsRap2s5RVqtIl1y0ke5/view?usp=share_link)
 * Glint360K TransFace-L: [Google Drive](https://drive.google.com/file/d/1jXL_tidh9KqAS6MgeinIk2UNWmEaxfb0/view?usp=share_link)
 
+You can test the accuracy of these model: (e.g. Glint360K TransFace-L)
+```
+python eval_ijbc.py --model-prefix model_path/glint360k_model_TransFace_L.pt --result-dir model_path --network vit_l_dp005_mask_005 > ijbc_glint360k_vit_l.log 2>&1 &
+```
 
 Accurcay of our models:
 
