@@ -23,29 +23,29 @@ Give examples
 You can download the test models
 
 Training Data: MS1MV2
-* MS1MV2 TransFace-S: [Google Drive](https://drive.google.com/file/d/1SXS4-Am3bsKSK615qbYdbA_FMVh3sAvR/view)
-* MS1MV2 TransFace-B: [Google Drive](https://drive.google.com/file/d/1SXS4-Am3bsKSK615qbYdbA_FMVh3sAvR/view)
-* MS1MV2 TransFace-L: [Google Drive](https://drive.google.com/file/d/1SXS4-Am3bsKSK615qbYdbA_FMVh3sAvR/view)
+* MS1MV2 TransFace-S: [Google Drive](https://drive.google.com/file/d/1UZWCg7jNESDv8EWs7mxQSswCMGbAZNF4/view?usp=share_link)
+* MS1MV2 TransFace-B: [Google Drive](https://drive.google.com/file/d/16O-q30mH8d3lECqa5eJd8rABaUlNhQ0K/view?usp=share_link)
+* MS1MV2 TransFace-L: [Google Drive](https://drive.google.com/file/d/1uXUFT6ujEPqvCTHzONsp6-DMIc24Cc85/view?usp=share_link)
 
 Training Data: Glint360K
-* Glint360K TransFace-S: [Google Drive](https://drive.google.com/file/d/1SXS4-Am3bsKSK615qbYdbA_FMVh3sAvR/view)
-* Glint360K TransFace-B: [Google Drive](https://drive.google.com/file/d/1SXS4-Am3bsKSK615qbYdbA_FMVh3sAvR/view)
-* Glint360K TransFace-L: [Google Drive](https://drive.google.com/file/d/1SXS4-Am3bsKSK615qbYdbA_FMVh3sAvR/view)
+* Glint360K TransFace-S: [Google Drive](https://drive.google.com/file/d/18Zh_zMlYttKVIGArmDYNEchIvUSH5FQ1/view?usp=share_link)
+* Glint360K TransFace-B: [Google Drive](https://drive.google.com/file/d/13IezvOo5GvtGVsRap2s5RVqtIl1y0ke5/view?usp=share_link)
+* Glint360K TransFace-L: [Google Drive](https://drive.google.com/file/d/1jXL_tidh9KqAS6MgeinIk2UNWmEaxfb0/view?usp=share_link)
 
-| Training Data | Model |
-| ------ | ------ |
-| MS1MV2 | TransFace-S |
-| ------ | ------ |
-| MS1MV2 | TransFace-B |
-| ------ | ------ |
-| MS1MV2 | TransFace-L |
-| ------ | ------ |
-| ------ | ------ |
-| Glint360K | TransFace-S |
-| ------ | ------ |
-| Glint360K | TransFace-B |
-| ------ | ------ |
-| Glint360K | TransFace-L |
+| Training Data | Model | GFLOPs | IJB-C(1e-6) | IJB-C(1e-5) | IJB-C(1e-4) | IJB-C(1e-3) | IJB-C(1e-2) | IJB-C(1e-1) |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| MS1MV2 | TransFace-S | 5.8 | 86.75 | 93.87 | 96.45 | 97.51 | 98.34 | 98.99 |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| MS1MV2 | TransFace-B | 11.5 | 86.73 | 94.15 | 96.55 | 97.73 | 98.47 | 99.11 |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| MS1MV2 | TransFace-L | 25.4 | 86.90 | 94.55 | 96.59 | 97.80 | 98.45 | 99.04 |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+
+| Glint360K | TransFace-S | 5.8 | 89.93 | 96.06 | 97.33 | 98.00 | 98.49 | 99.11 |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| Glint360K | TransFace-B | 11.5 | 88.64 | 96.18 | 97.45 | 98.17 | 98.66 | 99.23 |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| Glint360K | TransFace-L | 25.4 | 89.71 | 96.29 | 97.61 | 98.26 | 98.64 | 99.19 |
 
 What things you need to install the software and how to install them
  
