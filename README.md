@@ -49,7 +49,7 @@ You can test the accuracy of these model: (e.g. Glint360K TransFace-L)
 python eval_ijbc.py --model-prefix model_path/glint360k_model_TransFace_L.pt --result-dir model_path --network vit_l_dp005_mask_005 > ijbc_glint360k_vit_l.log 2>&1 &
 ```
 
-Accurcay of our models:
+Accuracy of our models on IJB-C:
 
 | Training Data | Model | IJB-C(1e-6) | IJB-C(1e-5) | IJB-C(1e-4) | IJB-C(1e-3) | IJB-C(1e-2) | IJB-C(1e-1) | log |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
