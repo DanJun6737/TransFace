@@ -32,6 +32,8 @@ Training Data: Glint360K
 * Glint360K TransFace-B: [Google Drive](https://drive.google.com/file/d/13IezvOo5GvtGVsRap2s5RVqtIl1y0ke5/view?usp=share_link)
 * Glint360K TransFace-L: [Google Drive](https://drive.google.com/file/d/1jXL_tidh9KqAS6MgeinIk2UNWmEaxfb0/view?usp=share_link)
 
+
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 | Training Data | Model | GFLOPs | IJB-C(1e-6) | IJB-C(1e-5) | IJB-C(1e-4) | IJB-C(1e-3) | IJB-C(1e-2) | IJB-C(1e-1) |
 | MS1MV2 | TransFace-S | 5.8 | 86.75 | 93.87 | 96.45 | 97.51 | 98.34 | 98.99 |
 | MS1MV2 | TransFace-B | 11.5 | 86.73 | 94.15 | 96.55 | 97.73 | 98.47 | 99.11 |
@@ -39,6 +41,7 @@ Training Data: Glint360K
 | Glint360K | TransFace-S | 5.8 | 89.93 | 96.06 | 97.33 | 98.00 | 98.49 | 99.11 |
 | Glint360K | TransFace-B | 11.5 | 88.64 | 96.18 | 97.45 | 98.17 | 98.66 | 99.23 |
 | Glint360K | TransFace-L | 25.4 | 89.71 | 96.29 | 97.61 | 98.26 | 98.64 | 99.19 |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
 
 What things you need to install the software and how to install them
  
