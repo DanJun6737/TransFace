@@ -32,9 +32,20 @@ Training Data: Glint360K
 * Glint360K TransFace-B: [Google Drive](https://drive.google.com/file/d/1SXS4-Am3bsKSK615qbYdbA_FMVh3sAvR/view)
 * Glint360K TransFace-L: [Google Drive](https://drive.google.com/file/d/1SXS4-Am3bsKSK615qbYdbA_FMVh3sAvR/view)
 
-| 内容 | 内容 |
+| Training Data | Model |
 | ------ | ------ |
-| 内容 | 内容 |
+| MS1MV2 | TransFace-S |
+| ------ | ------ |
+| MS1MV2 | TransFace-B |
+| ------ | ------ |
+| MS1MV2 | TransFace-L |
+| ------ | ------ |
+| ------ | ------ |
+| Glint360K | TransFace-S |
+| ------ | ------ |
+| Glint360K | TransFace-B |
+| ------ | ------ |
+| Glint360K | TransFace-L |
 
 What things you need to install the software and how to install them
  
