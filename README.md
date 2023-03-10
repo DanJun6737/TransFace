@@ -63,5 +63,5 @@ Accuracy of our models on IJB-C:
 | Glint360K | TransFace-B | 88.64 | 96.18 | 97.45 | 98.17 | 98.66 | 99.23 | link |
 | Glint360K | TransFace-L | 89.71 | 96.29 | 97.61 | 98.26 | 98.64 | 99.19 | link |
 
-
+Thanks.
 
