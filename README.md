@@ -47,17 +47,17 @@ You can download the test models reported in our paper as follows:
 
 Accurcay of our models:
 
-| Training Data | Model | GFLOPs | IJB-C(1e-6) | IJB-C(1e-5) | IJB-C(1e-4) | IJB-C(1e-3) | IJB-C(1e-2) | IJB-C(1e-1) | log |
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| MS1MV2 | TransFace-S | 5.8 | 86.75 | 93.87 | 96.45 | 97.51 | 98.34 | 98.99 | link |
-| MS1MV2 | TransFace-B | 11.5 | 86.73 | 94.15 | 96.55 | 97.73 | 98.47 | 99.11 | link |
-| MS1MV2 | TransFace-L | 25.4 | 86.90 | 94.55 | 96.59 | 97.80 | 98.45 | 99.04 | link |
+| Training Data | Model | IJB-C(1e-6) | IJB-C(1e-5) | IJB-C(1e-4) | IJB-C(1e-3) | IJB-C(1e-2) | IJB-C(1e-1) | log |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| MS1MV2 | TransFace-S | 86.75 | 93.87 | 96.45 | 97.51 | 98.34 | 98.99 | link |
+| MS1MV2 | TransFace-B | 86.73 | 94.15 | 96.55 | 97.73 | 98.47 | 99.11 | link |
+| MS1MV2 | TransFace-L | 86.90 | 94.55 | 96.59 | 97.80 | 98.45 | 99.04 | link |
 
-| Training Data | Model | GFLOPs | IJB-C(1e-6) | IJB-C(1e-5) | IJB-C(1e-4) | IJB-C(1e-3) | IJB-C(1e-2) | IJB-C(1e-1) | log |
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Glint360K | TransFace-S | 5.8 | 89.93 | 96.06 | 97.33 | 98.00 | 98.49 | 99.11 | link |
-| Glint360K | TransFace-B | 11.5 | 88.64 | 96.18 | 97.45 | 98.17 | 98.66 | 99.23 | link |
-| Glint360K | TransFace-L | 25.4 | 89.71 | 96.29 | 97.61 | 98.26 | 98.64 | 99.19 | link |
+| Training Data | Model | IJB-C(1e-6) | IJB-C(1e-5) | IJB-C(1e-4) | IJB-C(1e-3) | IJB-C(1e-2) | IJB-C(1e-1) | log |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| Glint360K | TransFace-S | 89.93 | 96.06 | 97.33 | 98.00 | 98.49 | 99.11 | link |
+| Glint360K | TransFace-B | 88.64 | 96.18 | 97.45 | 98.17 | 98.66 | 99.23 | link |
+| Glint360K | TransFace-L | 89.71 | 96.29 | 97.61 | 98.26 | 98.64 | 99.19 | link |
 
 
 
