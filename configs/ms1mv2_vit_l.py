@@ -21,6 +21,6 @@ config.dali = False
 config.rec = "/mnt/workspace/faces_emore"  #MS1MV2
 config.num_classes = 85742
 config.num_image = 5822653
-config.num_epoch = 20
+config.num_epoch = 35
 config.warmup_epoch = config.num_epoch // 10
 config.val_targets = []
