@@ -34,34 +34,22 @@ python eval_ijbc.py --model-prefix work_dirs/glint360k_vit_s/model.pt --result-d
 
 You can download the TransFace models reported in our paper as follows:
 
-1 Training Data: MS1MV2
-* MS1MV2 TransFace-S: [Google Drive](https://drive.google.com/file/d/1UZWCg7jNESDv8EWs7mxQSswCMGbAZNF4/view?usp=share_link)
-* MS1MV2 TransFace-B: [Google Drive](https://drive.google.com/file/d/16O-q30mH8d3lECqa5eJd8rABaUlNhQ0K/view?usp=share_link)
-* MS1MV2 TransFace-L: [Google Drive](https://drive.google.com/file/d/1uXUFT6ujEPqvCTHzONsp6-DMIc24Cc85/view?usp=share_link)
+| Training Data | Model | IJB-C(1e-6) | IJB-C(1e-5) | IJB-C(1e-4) | IJB-C(1e-3) | IJB-C(1e-2) | IJB-C(1e-1) | log |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| MS1MV2 | [TransFace-S](https://drive.google.com/file/d/1UZWCg7jNESDv8EWs7mxQSswCMGbAZNF4/view?usp=share_link) | 86.75 | 93.87 | 96.45 | 97.51 | 98.34 | 98.99 | [link](https://raw.githubusercontent.com/mr6737/TransFace_log/main/ms1mv2_vit_s_log.log?token=GHSAT0AAAAAAB72RRWRSVPSC6TNF7SCZCWEZANIY7Q) |
+| MS1MV2 | [TransFace-B](https://drive.google.com/file/d/16O-q30mH8d3lECqa5eJd8rABaUlNhQ0K/view?usp=share_link) | 86.73 | 94.15 | 96.55 | 97.73 | 98.47 | 99.11 | [link](https://raw.githubusercontent.com/mr6737/TransFace_log/main/ms1mv2_vit_b_log.log?token=GHSAT0AAAAAAB72RRWRDHTJMUDGPF6WY76GZANIZ7A) |
+| MS1MV2 | [TransFace-L](https://drive.google.com/file/d/1uXUFT6ujEPqvCTHzONsp6-DMIc24Cc85/view?usp=share_link) | 86.90 | 94.55 | 96.59 | 97.80 | 98.45 | 99.04 | [link](https://raw.githubusercontent.com/mr6737/TransFace_log/main/ms1mv2_vit_l_log.log?token=GHSAT0AAAAAAB72RRWRDMDKPYR6N37IAXYOZANI3EQ) |
 
-2 Training Data: Glint360K
-* Glint360K TransFace-S: [Google Drive](https://drive.google.com/file/d/18Zh_zMlYttKVIGArmDYNEchIvUSH5FQ1/view?usp=share_link)
-* Glint360K TransFace-B: [Google Drive](https://drive.google.com/file/d/13IezvOo5GvtGVsRap2s5RVqtIl1y0ke5/view?usp=share_link)
-* Glint360K TransFace-L: [Google Drive](https://drive.google.com/file/d/1jXL_tidh9KqAS6MgeinIk2UNWmEaxfb0/view?usp=share_link)
+| Training Data | Model | IJB-C(1e-6) | IJB-C(1e-5) | IJB-C(1e-4) | IJB-C(1e-3) | IJB-C(1e-2) | IJB-C(1e-1) | log |
+| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
+| Glint360K | [TransFace-S](https://drive.google.com/file/d/18Zh_zMlYttKVIGArmDYNEchIvUSH5FQ1/view?usp=share_link) | 89.93 | 96.06 | 97.33 | 98.00 | 98.49 | 99.11 | [link](https://raw.githubusercontent.com/mr6737/TransFace_log/main/glint360k_vit_s_log.log?token=GHSAT0AAAAAAB72RRWQEPULWLL4GJJNOG6IZANI4CA) |
+| Glint360K | [TransFace-B](https://drive.google.com/file/d/13IezvOo5GvtGVsRap2s5RVqtIl1y0ke5/view?usp=share_link) | 88.64 | 96.18 | 97.45 | 98.17 | 98.66 | 99.23 | [link](https://raw.githubusercontent.com/mr6737/TransFace_log/main/glint360k_vit_b_log.log?token=GHSAT0AAAAAAB72RRWQUMF4Y3OWENMZ7UDIZANI4SQ) |
+| Glint360K | [TransFace-L](https://drive.google.com/file/d/1jXL_tidh9KqAS6MgeinIk2UNWmEaxfb0/view?usp=share_link) | 89.71 | 96.29 | 97.61 | 98.26 | 98.64 | 99.19 | [link](https://raw.githubusercontent.com/mr6737/TransFace_log/main/glint360k_vit_l_log.log?token=GHSAT0AAAAAAB72RRWQRHYPAVEE3UQJOADQZANI45A) |
 
 You can test the accuracy of these model: (e.g. Glint360K TransFace-L)
 ```
-python eval_ijbc.py --model-prefix model_path/glint360k_model_TransFace_L.pt --result-dir model_path --network vit_l_dp005_mask_005 > ijbc_glint360k_vit_l.log 2>&1 &
+python eval_ijbc.py --model-prefix work_dirs/glint360k_vit_l/glint360k_model_TransFace_L.pt --result-dir work_dirs/glint360k_vit_l --network vit_l_dp005_mask_005 > ijbc_glint360k_vit_l.log 2>&1 &
 ```
-
-Accuracy of our models on IJB-C:
-
-| Training Data | Model | IJB-C(1e-6) | IJB-C(1e-5) | IJB-C(1e-4) | IJB-C(1e-3) | IJB-C(1e-2) | IJB-C(1e-1) | log |
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| MS1MV2 | TransFace-S | 86.75 | 93.87 | 96.45 | 97.51 | 98.34 | 98.99 | [link](https://raw.githubusercontent.com/mr6737/TransFace_log/main/ms1mv2_vit_s_log.log?token=GHSAT0AAAAAAB72RRWRSVPSC6TNF7SCZCWEZANIY7Q) |
-| MS1MV2 | TransFace-B | 86.73 | 94.15 | 96.55 | 97.73 | 98.47 | 99.11 | [link](https://raw.githubusercontent.com/mr6737/TransFace_log/main/ms1mv2_vit_b_log.log?token=GHSAT0AAAAAAB72RRWRDHTJMUDGPF6WY76GZANIZ7A) |
-| MS1MV2 | TransFace-L | 86.90 | 94.55 | 96.59 | 97.80 | 98.45 | 99.04 | [link](https://raw.githubusercontent.com/mr6737/TransFace_log/main/ms1mv2_vit_l_log.log?token=GHSAT0AAAAAAB72RRWRDMDKPYR6N37IAXYOZANI3EQ) |
-
-| Training Data | Model | IJB-C(1e-6) | IJB-C(1e-5) | IJB-C(1e-4) | IJB-C(1e-3) | IJB-C(1e-2) | IJB-C(1e-1) | log |
-| ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Glint360K | TransFace-S | 89.93 | 96.06 | 97.33 | 98.00 | 98.49 | 99.11 | [link](https://raw.githubusercontent.com/mr6737/TransFace_log/main/glint360k_vit_s_log.log?token=GHSAT0AAAAAAB72RRWQEPULWLL4GJJNOG6IZANI4CA) |
-| Glint360K | TransFace-B | 88.64 | 96.18 | 97.45 | 98.17 | 98.66 | 99.23 | [link](https://raw.githubusercontent.com/mr6737/TransFace_log/main/glint360k_vit_b_log.log?token=GHSAT0AAAAAAB72RRWQUMF4Y3OWENMZ7UDIZANI4SQ) |
-| Glint360K | TransFace-L | 89.71 | 96.29 | 97.61 | 98.26 | 98.64 | 99.19 | [link](https://raw.githubusercontent.com/mr6737/TransFace_log/main/glint360k_vit_l_log.log?token=GHSAT0AAAAAAB72RRWQRHYPAVEE3UQJOADQZANI45A) |
 
 Thanks.
 
