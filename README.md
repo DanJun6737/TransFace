@@ -53,15 +53,15 @@ Accuracy of our models on IJB-C:
 
 | Training Data | Model | IJB-C(1e-6) | IJB-C(1e-5) | IJB-C(1e-4) | IJB-C(1e-3) | IJB-C(1e-2) | IJB-C(1e-1) | log |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| MS1MV2 | TransFace-S | 86.75 | 93.87 | 96.45 | 97.51 | 98.34 | 98.99 | link |
-| MS1MV2 | TransFace-B | 86.73 | 94.15 | 96.55 | 97.73 | 98.47 | 99.11 | link |
-| MS1MV2 | TransFace-L | 86.90 | 94.55 | 96.59 | 97.80 | 98.45 | 99.04 | link |
+| MS1MV2 | TransFace-S | 86.75 | 93.87 | 96.45 | 97.51 | 98.34 | 98.99 | [link](https://raw.githubusercontent.com/mr6737/TransFace_log/main/ms1mv2_vit_s_log.log?token=GHSAT0AAAAAAB72RRWRSVPSC6TNF7SCZCWEZANIY7Q) |
+| MS1MV2 | TransFace-B | 86.73 | 94.15 | 96.55 | 97.73 | 98.47 | 99.11 | [link](https://raw.githubusercontent.com/mr6737/TransFace_log/main/ms1mv2_vit_b_log.log?token=GHSAT0AAAAAAB72RRWRDHTJMUDGPF6WY76GZANIZ7A) |
+| MS1MV2 | TransFace-L | 86.90 | 94.55 | 96.59 | 97.80 | 98.45 | 99.04 | [link](https://raw.githubusercontent.com/mr6737/TransFace_log/main/ms1mv2_vit_l_log.log?token=GHSAT0AAAAAAB72RRWRDMDKPYR6N37IAXYOZANI3EQ) |
 
 | Training Data | Model | IJB-C(1e-6) | IJB-C(1e-5) | IJB-C(1e-4) | IJB-C(1e-3) | IJB-C(1e-2) | IJB-C(1e-1) | log |
 | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ |
-| Glint360K | TransFace-S | 89.93 | 96.06 | 97.33 | 98.00 | 98.49 | 99.11 | link |
-| Glint360K | TransFace-B | 88.64 | 96.18 | 97.45 | 98.17 | 98.66 | 99.23 | link |
-| Glint360K | TransFace-L | 89.71 | 96.29 | 97.61 | 98.26 | 98.64 | 99.19 | link |
+| Glint360K | TransFace-S | 89.93 | 96.06 | 97.33 | 98.00 | 98.49 | 99.11 | [link](https://raw.githubusercontent.com/mr6737/TransFace_log/main/glint360k_vit_s_log.log?token=GHSAT0AAAAAAB72RRWQEPULWLL4GJJNOG6IZANI4CA) |
+| Glint360K | TransFace-B | 88.64 | 96.18 | 97.45 | 98.17 | 98.66 | 99.23 | [link](https://raw.githubusercontent.com/mr6737/TransFace_log/main/glint360k_vit_b_log.log?token=GHSAT0AAAAAAB72RRWQUMF4Y3OWENMZ7UDIZANI4SQ) |
+| Glint360K | TransFace-L | 89.71 | 96.29 | 97.61 | 98.26 | 98.64 | 99.19 | [link](https://raw.githubusercontent.com/mr6737/TransFace_log/main/glint360k_vit_l_log.log?token=GHSAT0AAAAAAB72RRWQRHYPAVEE3UQJOADQZANI45A) |
 
 Thanks.
 
