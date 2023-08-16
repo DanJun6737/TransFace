@@ -1,5 +1,5 @@
 # TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective
-This is the code of TransFace
+This is the official PyTorch implementation of TransFace.
 
 ## Requirements
 * Install Pytorch (torch>=1.9.0)
