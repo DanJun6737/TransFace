@@ -20,7 +20,7 @@ from utils.utils_distributed_sampler import setup_seed
 
 from torchvision import transforms
 from FFT import amplitude_spectrum_mix
-
+import random
 assert torch.__version__ >= "1.9.0", "In order to enjoy the features of the new torch, \
 we have upgraded the torch to 1.9.0. torch before than 1.9.0 may not work in the future."
 
@@ -168,11 +168,12 @@ def main(args):
             TopK_ALL = torch.argsort(weight, dim=1, descending=True)
             TopK_ALL = TopK_ALL.cpu().numpy()
             TopK  = TopK_ALL[:, :K]
-            
+
+            probability = 0.2
             batch_index = 0
             
             for index in TopK:
-                if True:
+                if random.random() <= probability:
                     for j in range(TopK.shape[1]):
                         patch_index_h = int(np.floor(index[j]/12))
                         patch_index_w = int( (index[j] - patch_index_h * 12) )
