@@ -1,4 +1,4 @@
-# TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective
+# TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective (ICCV 2023)
 This is the official PyTorch implementation of [TransFace](https://arxiv.org/abs/2308.10133).
 
 ## Requirements
@@ -49,6 +49,19 @@ You can download the TransFace models reported in our paper as follows:
 You can test the accuracy of these model: (e.g. Glint360K TransFace-L)
 ```
 python eval_ijbc.py --model-prefix work_dirs/glint360k_vit_l/glint360k_model_TransFace_L.pt --result-dir work_dirs/glint360k_vit_l --network vit_l_dp005_mask_005 > ijbc_glint360k_vit_l.log 2>&1 &
+```
+
+## Citation
+* If you find it helpful for you, please cite our paper
+  ```
+@misc{dan2023transface,
+      title={TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective}, 
+      author={Jun Dan and Yang Liu and Haoyu Xie and Jiankang Deng and Haoran Xie and Xuansong Xie and Baigui Sun},
+      year={2023},
+      eprint={2308.10133},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
 ```
 
 ## Acknowledgments
