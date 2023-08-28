@@ -53,13 +53,11 @@ python eval_ijbc.py --model-prefix work_dirs/glint360k_vit_l/glint360k_model_Tra
 ## Citation
 * If you find it helpful for you, please cite our paper
 ```
-@misc{dan2023transface,
-      title={TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective}, 
-      author={Jun Dan and Yang Liu and Haoyu Xie and Jiankang Deng and Haoran Xie and Xuansong Xie and Baigui Sun},
-      year={2023},
-      eprint={2308.10133},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{dan2023transface,
+  title={TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective},
+  author={Dan, Jun and Liu, Yang and Xie, Haoyu and Deng, Jiankang and Xie, Haoran and Xie, Xuansong and Sun, Baigui},
+  journal={arXiv preprint arXiv:2308.10133},
+  year={2023}
 }
 ```
 
