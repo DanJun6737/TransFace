@@ -1,7 +1,8 @@
 # TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective (ICCV-2023)
-This is the official PyTorch implementation of [TransFace](https://arxiv.org/abs/2308.10133).
+This is the official PyTorch implementation of [TransFace](https://openaccess.thecvf.com/content/ICCV2023/html/Dan_TransFace_Calibrating_Transformer_Training_for_Face_Recognition_from_a_Data-Centric_ICCV_2023_paper.html).
 
-[Paper](https://openaccess.thecvf.com/content/ICCV2023/html/Dan_TransFace_Calibrating_Transformer_Training_for_Face_Recognition_from_a_Data-Centric_ICCV_2023_paper.html)
+[Arxiv](https://arxiv.org/abs/2308.10133)
+
 
 ## Requirements
 * Install Pytorch (torch>=1.9.0)
