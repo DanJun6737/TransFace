@@ -3,6 +3,8 @@ This is the official PyTorch implementation of [TransFace](https://openaccess.th
 
 [Arxiv](https://arxiv.org/abs/2308.10133)
 
+## ModelScope
+You can quickly experience and invoke our TransFace model on the [ModelScope](https://modelscope.cn/models/damo/cv_vit_face-recognition/summary).
 
 ## Requirements
 * Install Pytorch (torch>=1.9.0)
