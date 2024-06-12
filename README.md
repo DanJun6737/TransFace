@@ -6,6 +6,28 @@ This is the official PyTorch implementation of [TransFace](https://openaccess.th
 ## ModelScope
 You can quickly experience and invoke our TransFace model on the [ModelScope](https://modelscope.cn/models/damo/cv_vit_face-recognition/summary).
 
+* Quickly utilize our model as a feature extractor to extract facial features from the input image.
+```
+# Usage: Input aligned facial images (112x112) to obtain a 512-dimensional facial feature vector.
+# For convenience, the model integrates the RetinaFace model for face detection and keypoint estimation.
+# Provide two images as input, and for each image, the model will independently perform face detection,
+# select the largest face, align it, and extract the corresponding facial features.
+# Finally, the model will return a similarity score indicating the resemblance between the two faces.
+
+from modelscope.pipelines import pipeline
+from modelscope.utils.constant import Tasks
+from modelscope.outputs import OutputKeys
+import numpy as np
+
+face_mask_recognition_func = pipeline(Tasks.face_recognition, 'damo/cv_vit_face-recognition')
+img1 = 'https://modelscope.oss-cn-beijing.aliyuncs.com/test/images/face_recognition_1.png'
+img2 = 'https://modelscope.oss-cn-beijing.aliyuncs.com/test/images/face_recognition_2.png'
+emb1 = face_mask_recognition_func(img1)[OutputKeys.IMG_EMBEDDING]
+emb2 = face_mask_recognition_func(img2)[OutputKeys.IMG_EMBEDDING]
+sim = np.dot(emb1[0], emb2[0])
+print(f'Face cosine similarity={sim:.3f}, img1:{img1}  img2:{img2}')
+```
+
 ## Requirements
 * Install Pytorch (torch>=1.9.0)
 * ```pip install -r requirement.txt```
