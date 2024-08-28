@@ -1,7 +1,15 @@
 # TransFace
-This is the official PyTorch implementation of [[ICCV-2023] TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective](https://openaccess.thecvf.com/content/ICCV2023/html/Dan_TransFace_Calibrating_Transformer_Training_for_Face_Recognition_from_a_Data-Centric_ICCV_2023_paper.html).
+This is the official PyTorch implementation of [[ICCV-2023] TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective](https://openaccess.thecvf.com/content/ICCV2023/html/Dan_TransFace_Calibrating_Transformer_Training_for_Face_Recognition_from_a_Data-Centric_ICCV_2023_paper.html).  [[Arxiv Version]](https://arxiv.org/abs/2308.10133)
 
-[Arxiv Version](https://arxiv.org/abs/2308.10133)
+## News
+- 🚀🚀🚀 TransFace is integrated in [FaceChain-FACT](https://github.com/modelscope/facechain) as a key identity-preserved module to assist Stable Diffusion in generating human portraits with fine-grained facial details and diverse styles.
+In the newest FaceChain-FACT (Face Adapter with deCoupled Training) version, with only 1 photo and 10 seconds, you can generate personal portraits in different settings (multiple styles now supported!).
+
+<a href='https://facechain-fact.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/DHqEl0qwi-M?si=y6VpInXdhIX0HpbI)
+
+ The entire framework of [FaceChain-FACT](https://github.com/modelscope/facechain) is shown in the figure below.
+
+![image](docs/framework.png)
 
 ## ModelScope
 You can quickly experience and invoke our TransFace model on the [ModelScope](https://modelscope.cn/models/damo/cv_vit_face-recognition/summary).
