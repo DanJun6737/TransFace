@@ -1,4 +1,3 @@
-<p>
 <h2 align="center">TransFace: Calibrating Transformer Training for Face Recognition from a Data-Centric Perspective
 <h5 align="center"> If you like TransFace, please give us a star ⭐ on GitHub for the latest update~
 </h2>
