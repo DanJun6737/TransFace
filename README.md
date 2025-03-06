@@ -13,7 +13,7 @@ This is the official PyTorch implementation of [[ICCV-2023] TransFace: Calibrati
 
 
 ## News
-- 🚀🚀🚀 TransFace is integrated in [FaceChain](https://github.com/modelscope/facechain) as a key identity-preserved module to assist Stable Diffusion in generating human portraits with fine-grained facial details and diverse styles.
+- 🚀🚀🚀 TransFace is integrated in [FaceChain](https://github.com/modelscope/facechain) as a key **identity-preserved module** to assist Stable Diffusion in generating human portraits with fine-grained facial details and diverse styles.
 In the newest FaceChain-FACT (Face Adapter with deCoupled Training) version, with only 1 photo and 10 seconds, you can generate personal portraits in different settings (multiple styles now supported!). (May 28th, 2024 UTC)
 
 <a href='https://facechain-fact.github.io/'><img src='https://img.shields.io/badge/Project-Page-Green'></a>  [![YouTube](https://badges.aleen42.com/src/youtube.svg)](https://youtu.be/DHqEl0qwi-M?si=y6VpInXdhIX0HpbI)
